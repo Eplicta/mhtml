@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eplicta.Mhtml", "Eplicta.Mhtml\Eplicta.Mhtml.csproj", "{C3A83AC0-AC7C-4682-9BEE-1EB14750E192}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eplicta.Mhtml.Tests", "Eplicta.Mhtml.Tests\Eplicta.Mhtml.Tests.csproj", "{7111BF74-F720-4DFC-8A75-D4C417F31417}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9643BF3D-BF08-4BD0-A4CB-88DA9E28519A}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eplicta.Mhtml.Sample", "Eplicta.Mhtml.Sample\Eplicta.Mhtml.Sample.csproj", "{2F6021D0-2012-413B-9089-D9DA26D945B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3A83AC0-AC7C-4682-9BEE-1EB14750E192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A83AC0-AC7C-4682-9BEE-1EB14750E192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A83AC0-AC7C-4682-9BEE-1EB14750E192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A83AC0-AC7C-4682-9BEE-1EB14750E192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7111BF74-F720-4DFC-8A75-D4C417F31417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7111BF74-F720-4DFC-8A75-D4C417F31417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7111BF74-F720-4DFC-8A75-D4C417F31417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7111BF74-F720-4DFC-8A75-D4C417F31417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F6021D0-2012-413B-9089-D9DA26D945B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F6021D0-2012-413B-9089-D9DA26D945B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F6021D0-2012-413B-9089-D9DA26D945B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F6021D0-2012-413B-9089-D9DA26D945B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C37157A-BCE8-4B14-B07B-4A3E09D5A7EE}
+	EndGlobalSection
+EndGlobal
