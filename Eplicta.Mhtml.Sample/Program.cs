@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
 using System.IO;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
@@ -21,8 +20,5 @@ internal static class Program
         var renderer = new Renderer(result);
         await using var archive = renderer.GetStream();
         await File.WriteAllBytesAsync("C:\\temp\\test.mhtml", archive.ToArray());
-
-        Debugger.Break();
-        Console.WriteLine("Hello World!");
     }
 }

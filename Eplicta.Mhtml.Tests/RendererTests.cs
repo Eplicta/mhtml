@@ -10,7 +10,7 @@ public class RendererTests
     public void Render()
     {
         //Arrange
-        var sut = new Renderer(Mock.Of<PageData>());
+        var sut = new Renderer(Mock.Of<PageData>(x => x.MainContent == "<html><head><title>AAA</title></head><body><p>Test AAA</p><img src=\"https://i.stack.imgur.com/yrOh8b.jpg\" /></body></html>"));
 
         //Act
         var result = sut.GetStream();

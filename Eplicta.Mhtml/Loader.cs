@@ -19,8 +19,12 @@ public class Loader
         var message = await _httpClient.GetAsync(page);
         var stringContent = await message.Content.ReadAsStringAsync();
 
+        stringContent = stringContent.Replace("\r", "").Replace("\n", "").Replace("\t", " ");
         //TODO: Download content here
         //TODO: Then download all resources
-        return new PageData();
+        return new PageData
+        {
+            MainContent = stringContent
+        };
     }
 }
